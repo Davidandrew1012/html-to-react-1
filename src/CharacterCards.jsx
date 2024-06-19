@@ -4,7 +4,7 @@ import { characters } from './fma-data';
 function CharacterCards() {
    return (
       <section id="character-cards">
-         {characters.map((character, index) => (
+         {characters.map((character) => (
             <div key={character.name} className="card">
                <div className="card-titles">
                   <h3>{character.name}</h3>
