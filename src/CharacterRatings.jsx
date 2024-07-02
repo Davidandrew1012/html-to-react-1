@@ -1,3 +1,4 @@
+import React from 'react';
 import './character-ratings.css';
 import { characters } from './fma-data';
 
@@ -17,7 +18,7 @@ function CharacterRatings() {
             </thead>
             <tbody>
                {sortedCharacters.map((character, index) => (
-                  <tr key={character.id} className={index % 2 === 0 ? 'dark' : 'light'}>
+                  <tr key={`${character.id}-${index}`} className={index % 2 === 0 ? 'dark' : 'light'}>
                      <td>{character.name}</td>
                      <td>{character.skillset}</td>
                      <td>{character.votes}</td>

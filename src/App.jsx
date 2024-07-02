@@ -1,9 +1,9 @@
-import Header from './Header';
-import CharacterCards from './CharacterCards';
+import React from 'react';
+import Header from './components/header/Header';
+import CharacterCards from './components/character-cards/CharacterCards';
 import CharacterRatings from './CharacterRatings';
 import './App.css';
-import './style.css';
-import './reset.css';
+
 
 
 function App() {
