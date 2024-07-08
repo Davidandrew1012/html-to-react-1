@@ -90,7 +90,7 @@ export const characters = [
     name: "Bobby Hill",
     nickName: "Prince of the Hill",
     votes: 500,
-    skillset: ["Self Defence with a Purse", "Groin Kicks", "He ain't right"],
+    skillset: ["Self Defense with a Purse", "Groin Kicks", "He ain't right"],
     background:
       "Always in the shadow of his father, the self proclaimed Propane King of the Hill",
     imageUrl:
