@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/header/Header';
-import CharacterCards from './components/character-cards/CharacterCards';
-import CharacterRatings from './CharacterRatings';
+import Header from '../header/Header';
+import CharacterCards from '../character-cards/CharacterCards';
+import CharacterRatings from '../character-ratings/CharacterRatings';
 import './App.css';
 
 

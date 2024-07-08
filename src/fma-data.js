@@ -17,7 +17,7 @@ export const characters = [
     background:
       "Alphonse is a walking suit of armor on a quest to find his real body",
     imageUrl:
-      "https://static.wikia.nocookie.net/universe-of-smash-bros-lawl/images/1/19/Alphonse_Elric_Fullmetal_Alchemist.png/revision/latest?cb=20201121115928",
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/alphonse-facts-featured-image.jpg",
   },
   {
     name: "Edward Elrich",
@@ -26,8 +26,7 @@ export const characters = [
     votes: 109,
     background:
       "Edward is a master alchemist and our main character... just don't call him short",
-    imageUrl:
-      "https://www.pngkit.com/png/detail/952-9524083_edward-elric-photo-edwardelric7-full-body-edward-elric.png",
+    imageUrl: "https://avatarfiles.alphacoders.com/342/thumb-1920-342160.png",
   },
   {
     name: "Greed",
@@ -35,7 +34,7 @@ export const characters = [
     votes: 45,
     skillset: ["Skin Hardening", "Homunculii"],
     imageUrl:
-      "https://static.wikia.nocookie.net/villains/images/f/fd/20111222135943%21Greed.png/revision/latest?cb=20140901212536",
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/09/FMA-10-Greed-Facts-ling-brother-1.jpg",
     background:
       "Greed is one of the seven deadly sins Homunculii. He's the most 'on our side' of all of them.",
   },
@@ -56,8 +55,7 @@ export const characters = [
     votes: 95,
     background:
       "Hawkeye is Colonel Mustang's loyal assistant, and one of the strongest non-alchemist characters in the show",
-    imageUrl:
-      "https://static.wikia.nocookie.net/fma/images/2/26/Riza-profile.png/revision/latest?cb=20200710231139",
+    imageUrl: "https://static.zerochan.net/Riza.Hawkeye.full.86122.jpg",
   },
   {
     name: "Solf J. Kimblee",
@@ -66,7 +64,7 @@ export const characters = [
     skillset: ["Being a piece of sh*t", "Alchemy"],
     background: "Kimblee suckkkkkssss, seriously he's not very nice",
     imageUrl:
-      "https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/9/94/SolfJKimbleeEp37.png/revision/latest/scale-to-width-down/290?cb=20121003101919",
+      "https://i.pinimg.com/736x/2f/25/1c/2f251cc542c9d040aee54c37f2a7958c.jpg",
   },
   {
     name: "Tim Marcoh",
@@ -75,8 +73,7 @@ export const characters = [
     skillset: ["Healing Alchemy", "Making Philospher Stones"],
     background:
       "Dr. Marcoh did some F**ked up S**t in the war on ishval, but his redemption arc is strong",
-    imageUrl:
-      "https://static.wikia.nocookie.net/fma/images/8/88/Marcoh.png/revision/latest?cb=20130321233603",
+    imageUrl: "https://images3.alphacoders.com/976/976586.png",
   },
   {
     name: "Winrey Rockbell",
@@ -86,6 +83,17 @@ export const characters = [
     background:
       "Winrey is Edward and Al's best friend, and it's a good thing because her specialty is making the best automail out there",
     imageUrl:
-      "https://static.wikia.nocookie.net/thejusticeworld/images/8/85/800-by-600-366874-20090424144049.jpg/revision/latest?cb=20120415225041",
+      "https://preview.redd.it/what-are-your-honest-thoughts-about-winry-rockbell-v0-yb9ws1p0ip1d1.jpg?width=1024&format=pjpg&auto=webp&s=52750a1b064387ba17c242894e71ec908f57d952",
+  },
+  //Joke Entry... Erase if needed!!!
+  {
+    name: "Bobby Hill",
+    nickName: "Prince of the Hill",
+    votes: 500,
+    skillset: ["Self Defence with a Purse", "Groin Kicks", "He ain't right"],
+    background:
+      "Always in the shadow of his father, the self proclaimed Propane King of the Hill",
+    imageUrl:
+      "https://media.discordapp.net/attachments/1070733046678032484/1259928324768268378/david.sanchez_Bobby_Hill_from_the_cartoon_King_of_the_hill_in_F_d3668e59-d201-4acb-99bc-4e326a0811e1.png?ex=668d7730&is=668c25b0&hm=ebfd46ac3b908145dae8be49ffa446227401385fbf943acec4fb98f74234220f&=&format=webp&quality=lossless&width=614&height=614",
   },
 ];

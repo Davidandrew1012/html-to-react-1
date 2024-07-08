@@ -1,7 +1,7 @@
 import React from 'react';
 import './character-cards.css';
 import { characters } from '../../fma-data';
-import { CharacterCard } from '../characterCard';
+import { CharacterCard } from './characterCard';
 
 
 function CharacterCards() {

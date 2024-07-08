@@ -1,6 +1,6 @@
 import React from 'react';
 import './character-ratings.css';
-import { characters } from './fma-data';
+import { characters } from '../../fma-data';
 
 function CharacterRatings() {
    const sortedCharacters = [...characters].sort((a, b) => b.votes - a.votes).slice(0, 5);
@@ -19,8 +19,8 @@ function CharacterRatings() {
             <tbody>
                {sortedCharacters.map((character, index) => (
                   <tr key={`${character.id}-${index}`} className={index % 2 === 0 ? 'dark' : 'light'}>
-                     <td>{character.name}</td>
-                     <td>{character.skillset}</td>
+                     <td>{character.name} {character.nickName ? `"${character.nickName}"` : ''}</td>
+                     <td>{character.skillset.join(', ')}</td>
                      <td>{character.votes}</td>
                   </tr>
                ))}
